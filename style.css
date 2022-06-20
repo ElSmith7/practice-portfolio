@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -86,4 +87,26 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  #about-me-heading {
+    margin: 30px auto 20px auto;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  #contact-me {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .yoga-app,
+  .weather-app,
+  .yogurt-app {
+    text-align: center;
+  }
 }
